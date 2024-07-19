@@ -2,7 +2,7 @@
 import pandas as pd
 
 # 경로설정
-path = '/Users/jongwoom1pro/Coding/개인프로젝트/고객취향군집화분석/data'
+path = 'data'
 
 data = pd.read_csv(f'{path}/2019-Oct_purchase.csv')
 

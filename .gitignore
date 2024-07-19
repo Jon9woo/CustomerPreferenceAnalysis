@@ -1,0 +1,2 @@
+# data 디렉터리 내의 csv 파일 제외
+data/*.csv

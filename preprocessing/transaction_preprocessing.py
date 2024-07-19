@@ -13,7 +13,7 @@ data = pd.read_csv(f'{path}/2019-Oct_purchase.csv')
 print("트랜잭션 단위 데이터를 불러왔습니다.")
 
 # 결측치 제거
-data = data.dropna()
+data = data.dropna(axis=0)
 
 print("결측치 제거 완료")
 

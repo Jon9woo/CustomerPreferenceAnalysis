@@ -9,7 +9,7 @@ import pandas as pd
 # 경로설정
 path = '../data'
 
-data = pd.read_csv(f'{path}/2019-Oct_purchase.csv')
+data = pd.read_csv(f'{path}/2019-Oct_purchase_preprocessed.csv')
 
 print('트랜잭션 단위 데이터를 불러왔습니다.')
 

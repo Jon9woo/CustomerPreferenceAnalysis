@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 경로설정
-path = 'data'
+path = '../data'
 
 data = pd.read_csv(f'{path}/2019-Oct_purchase.csv')
 
